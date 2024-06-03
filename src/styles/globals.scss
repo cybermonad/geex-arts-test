@@ -1,0 +1,22 @@
+@import "./constants.scss";
+
+.container {
+  max-width: 1160px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--grayscale-20);
+}
+
+#root {
+  padding-top: 52px;
+}
+
+@media (min-width: 968px) {
+  #root {
+    padding-top: 64px;
+  }
+}
+

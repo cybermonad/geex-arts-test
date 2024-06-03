@@ -1,0 +1,22 @@
+.drawer {
+  &_content {
+    gap: 8px;
+    padding: 24px 16px 20px;
+    height: calc(100vh - 52px);
+
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+
+    li {
+      a {
+        padding: 16px 8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}
+

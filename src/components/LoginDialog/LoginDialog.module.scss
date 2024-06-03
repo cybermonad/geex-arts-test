@@ -1,0 +1,28 @@
+.dialog {
+  :global {
+    .MuiModal-backdrop {
+      backdrop-filter: blur(3.0999999046325684px);
+      background: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  div {
+    box-shadow: none;
+  }
+
+  &_content {
+    background-color: var(--grayscale-00);
+    border-radius: 24px;
+    padding: 0 24px 36px;
+    width: 370px;
+    box-shadow: 8px 8px 29px 0px rgba(147, 149, 184, 0.2);
+
+    nav {
+      height: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}
+

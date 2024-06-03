@@ -1,0 +1,81 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  display: block;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+h6 {
+  overflow-wrap: break-word;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
